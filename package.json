@@ -1,0 +1,21 @@
+{
+  "name": "blurple",
+  "version": "1.0.1",
+  "description": "The node module for discord colors!",
+  "author": "vyxo",
+  "main": "blurple.js",
+  "keywords": [
+    "blurple",
+    "discord",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyxo/blurple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vyxo/blurple/issues"
+  },
+  "homepage": "https://github.com/vyxo/blurple",
+  "license": "MIT"
+}
