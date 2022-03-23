@@ -28,6 +28,9 @@ console.log(blurple.css())
 
 // Generate a Map of the hex colors
 console.log(blurple.map())
+
+// Get base 10 colors
+console.log(blurple.denary())
 ```
 
 ## Feedback
