@@ -12,7 +12,7 @@ You might want to use these colors with the `discord.js` module on npm. They wil
 > `blurple.hex.darker` is the same color as a discord embed!
 
 ```js
-const blurple = require('./blurple')
+const blurple = require('blurple')
 
 // Current Blurple Hex Code
 console.log(blurple.hex.blurple)

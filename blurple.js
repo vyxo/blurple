@@ -64,5 +64,24 @@ module.exports = {
       }
     }
     return colors
+  }, 
+  denary: () => {
+    var colors = {
+      
+    }
+    for (const [key, value] of Object.entries(module.exports.hex)) {
+      if ((typeof value) === 'string') { 
+        colors[key] = parseInt(value.slice(1), 10)
+      } else {
+        const multi = {
+          
+        }
+        for (const [role, variant] of Object.entries(value)) {
+          multi[role] = variant
+        }
+        colors[key] = multi
+      }
+    }
+    return colors
   }
 }
